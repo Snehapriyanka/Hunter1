@@ -12,19 +12,6 @@ public class Program2 {
 		{
 			a[i]=s.nextInt();
 		}
-		/*for(int i=0;i>n;i++)
-		{
-			for(int j=i+1;j<n;j++)
-			{
-				if(a[i]>a[j]) {
-					System.out.println(a[i]);
-				}
-			}
-		}
-		for(int i=0;i<n-1;i++)
-		{
-			System.out.print(a[i]+",");
-		}*/
 		Arrays.sort(a);
 		String str=Arrays.toString(a);
 		String str1=str.substring(1, str.length()-1);
